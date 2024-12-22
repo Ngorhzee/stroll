@@ -1,7 +1,7 @@
 class AppAssets{
   //Images
-  static const String imgPath = "assets/images/";
-  static const String joey = "$imgPath/joey.png";
+  static const String imgPath = "assets/images";
+  static const String joey = "$imgPath/Joey.png";
   static const String background = "$imgPath/background.png";
   static const String fade = "$imgPath/fade.svg";
 
