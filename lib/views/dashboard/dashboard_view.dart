@@ -111,31 +111,28 @@ class _DashboardViewState extends State<DashboardView> {
                         ),
                       ]),
                     ),
-                    SizedBox(
-                      height: 30.w,
-                      width: 30.w,
-                      child: Container(
-                        // height: 10.h,
-                        // width: 6.w,
-                        decoration: BoxDecoration(
-                          boxShadow: [
-                            BoxShadow(
-                              color: Pallet.black.shade700.withOpacity(0.005),
-
-                              blurRadius: .3.r,
-                              spreadRadius: 0,
-                              offset: Offset(0, .3),
-                            ),
-
-                          ]
+                    Icon(Icons.keyboard_arrow_down_rounded,
+                      size: 24.sp,
+                      color: Color(0xffCBC9FF),
+                      shadows: [
+                        Shadow(
+                          color: Pallet.black.shade700.withOpacity(0.2),
+                          blurRadius: 7.9.r,
+                          offset: Offset(0, 0),
                         ),
-                        child:  ImageLoader(
-                          height: 10.h,
-                          width: 6.w,
-                          path: AppAssets.arrowDown,
+                        Shadow(
+                          color: Pallet.black.shade50,
+                          blurRadius: 2.r,
+                          offset: Offset(0, 0),
                         ),
-                      ),
-                    )
+                        Shadow(
+                          color: Pallet.black.shade100.withOpacity(0.5),
+
+                          blurRadius: 2.r,
+                          offset: Offset(0, 1),
+                        ),
+                    ],)
+
                   ],
                 ),
                 Row(
