@@ -75,6 +75,7 @@ class AppText extends StatelessWidget {
     fontFamily: fontfamily,
     wordSpacing: wordSpacing,
     fontWeight: fontWeight,
+
   );
   AppText.headlineSmall(
       this.text, {
@@ -130,6 +131,7 @@ class AppText extends StatelessWidget {
     fontFamily: fontfamily,
     wordSpacing: wordSpacing,
     fontWeight: fontWeight,
+    fontStyle: fontStyle
   );
   AppText.bodyMedium(
       this.text, {

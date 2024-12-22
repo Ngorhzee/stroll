@@ -229,15 +229,16 @@ class _DashboardViewState extends State<DashboardView> {
                       ),
                     ),
                     SizedBox(
-                      height: 5.h,
+                      height: 8.h,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         AppText.bodySmall(
-                          "Mine is definitely the peace in the morning.",
+                          '"Mine is definitely the peace in the morning."',
                           color: Pallet.primaryColor.withOpacity(.7),
                           centered: true,
+                          fontStyle: FontStyle.italic,
                         ),
                       ],
                     ),
